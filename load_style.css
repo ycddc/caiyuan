@@ -1,0 +1,23 @@
+body{
+    background-image: url(img/photo_5.JPG);
+}
+
+.text_box{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    color: white;
+  }
+
+  @media screen and (max-width: 768px) {
+    /* 화면 너비가 768px 이하인 경우에만 적용되는 스타일 */
+    .text_box {
+        font-size: 2rem;
+    }
+
+    body{
+        background-image: url(img/photo_6.JPG);
+    }
+  }
